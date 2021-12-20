@@ -1,0 +1,55 @@
+body{
+    background-color: maroon;
+    color: white;
+    font-family: 'zen antique', sans-serif ;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+header {
+    text-align: center;
+    margin-top: 5px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+th {
+    border: 2px solid #8c6b48;
+}
+
+table {
+    text-align: center;
+    margin: 20px auto;
+}
+
+td {
+    border: 2px solid #8c6b48;
+    width: 300px;
+}
+
+.button {
+    background-color: white;
+    font-size: 30pt;
+    border-radius: 10pt;
+    border: 8px solid teal;
+    transition-duration: 0.5s;
+    width: 250px;
+
+}
+
+.button:hover {
+    background-color: teal;
+    color: teal;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
